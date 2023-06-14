@@ -15,7 +15,7 @@ copyright()
 print("\n" * 5)
 print("Script used to auto invite random members to your Telegram group.")
 print("Put in Chat username your chat username and in Group username an other group to get members from it.")
-group_username = "@BlackXies_group"#يوزر القروب يلي تبي تسحب اعضاء منه
+group_username = input("Enter chatuserid : ")#يوزر القروب يلي تبي تسحب اعضاء منه
 chat_username = "@mhat1"#يوزر قروبك
 os.system("clear"); copyright()
 print("After login, send /invite in any group.")
